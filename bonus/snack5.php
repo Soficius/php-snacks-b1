@@ -13,5 +13,6 @@ Hic, laudantium. Incidunt ratione consequuntur cum nam ullam blanditiis a ex vol
 Eum labore sunt iure hic accusamus, eligendi vero saepe quas neque fugiat. Repudiandae voluptates, totam unde, temporibus fugit corrupti cum animi incidunt iure perferendis dicta enim iste laudantium optio quia?";
 
 $paragraphs = explode('.', $paragraph);
-foreach ($paragraphs as $paragraph);
-echo "<p>$paragraph</p>";
+foreach ($paragraphs as $paragraph) {
+    echo "<p>$paragraph</p>";
+}
