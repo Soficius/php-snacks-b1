@@ -7,9 +7,9 @@
 // “Accesso riuscito”, altrimenti “Accesso negato”;
 
 
-$name = $_GET['name'];
-$email = $_GET['email'];
-$age = $_GET['age'];
+$name = $_GET['name'] ?? '';
+$email = $_GET['email'] ?? '';
+$age = $_GET['age'] ?? '';
 
 if (
     !empty($name) && !empty($email) && !empty($age) &&
