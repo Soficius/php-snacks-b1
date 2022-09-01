@@ -64,8 +64,8 @@ $archive = [
                 <li>Autore: <?php echo $posts[$i]['author']; ?></li>
                 <li><?php echo $posts[$i]['text']; ?></li>
             </ul>
-        <? endfor ?>
-    <? endforeach ?>
+        <? endfor; ?>
+    <? endforeach; ?>
 </body>
 
 </html>
