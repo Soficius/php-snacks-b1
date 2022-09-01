@@ -61,7 +61,7 @@ $archive = [
         <?php for ($i = 0; $i < count($posts); $i++) : ?>
             <h4><?php echo $posts[$i]['title']; ?></h4>
             <ul>
-                <li>Autore: <?php echo $posts[$i]['author']; ?></li>
+                <li>Autore:<?php echo $posts[$i]['author']; ?></li>
                 <li><?php echo $posts[$i]['text']; ?></li>
             </ul>
         <? endfor; ?>
